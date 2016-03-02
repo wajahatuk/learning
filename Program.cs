@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Learning
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            rectangle r = new rectangle();
+            r.Acceptdetails();
+            r.Display();
+            Console.ReadLine();
+        }
+    }
+}
